@@ -27,9 +27,7 @@
   "main": "dist/leaflet.draw.js",
   "style": "dist/leaflet.draw.css",
   "directories": {
-    "doc": "docs/",
-    "example": "docs/example",
-    "lib": "src/"
+    "doc": "docs"
   },
   "files": [
     "dist/*",
@@ -43,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Leaflet/Leaflet.draw.git"
+    "url": "git+https://github.com/Leaflet/Leaflet.draw.git"
   },
   "keywords": [
     "maps",
@@ -54,16 +52,10 @@
     "draw"
   ],
   "contributors": [
-    {
-      "name": "Jon West",
-      "email": "ddproxy@gmail.com"
-    },
-    {
-      "name": "Jacob Toye"
-    }
+    "Jon West <ddproxy@gmail.com>",
+    "Jacob Toye"
   ],
   "license": "MIT",
-  "readmeFilename": "README.md",
   "eslintConfig": {
     "root": true,
     "globals": {
@@ -94,5 +86,11 @@
       "key-spacing": 0,
       "consistent-return": 0
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Leaflet/Leaflet.draw/issues"
+  },
+  "homepage": "https://github.com/Leaflet/Leaflet.draw#readme",
+  "author": "Leaflet",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
