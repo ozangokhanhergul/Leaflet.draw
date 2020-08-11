@@ -1,5 +1,5 @@
 {
-  "name": "leaflet-draw",
+  "name": "@ozangokhanhergul/leaflet-draw",
   "version": "1.0.3",
   "description": "Vector drawing plugin for Leaflet",
   "devDependencies": {
